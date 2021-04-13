@@ -18,6 +18,13 @@
     "@docusaurus/preset-classic": "^2.0.0-alpha.69",
     "prism-react-renderer": "^1.1.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-native-elements": "^3.3.2",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-web": "^0.15.6",
+    "react-view": "^2.3.7"
+  },
+  "devDependencies": {
+    "babel-plugin-react-native-web": "^0.15.6"
   }
 }

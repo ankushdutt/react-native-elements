@@ -5,6 +5,77 @@ title: Avatar
 
 import Props from './props/avatar.md'
 
+import {View, PropTypes} from 'react-view';
+import {Avatar} from 'react-native-elements';
+
+<View
+componentName="Avatar"
+props={{
+      activeOpacity: {
+        value: 0.2,
+        type: PropTypes.Number,
+      },
+      avatarStyle: {
+        value: `{}`,
+        type: PropTypes.Object,
+      },
+      containerStyle: {
+        value: `{ backgroundColor: '#BDBDBD' }`,
+        type: PropTypes.Object,
+      },
+      icon: {
+        value: `{}`,
+        type: PropTypes.Object,
+      },
+      iconStyle: {
+        value: `{}`,
+        type: PropTypes.Object,
+      },
+      imageProps: {
+        value: `{}`,
+        type: PropTypes.Object,
+      },
+      onLongPress: {
+        value: `()=>alert('onLongPress')`,
+        type: PropTypes.Function,
+      },
+      onPress: {
+        value: `()=>alert('onPress')`,
+        type: PropTypes.Function,
+      },
+      overlayContainerStyle: {
+        value: `{}`,
+        type: PropTypes.Object,
+      },
+      placeholderStyle: {
+        value: `{}`,
+        type: PropTypes.Object,
+      },
+      rounded: {
+        value: true,
+        type: PropTypes.Boolean,
+        description: "Indicates that the button is disabled",
+      },
+      source: {
+        value: `{uri:""}`,
+        type: PropTypes.Object,
+      },
+      title: {
+        value: "P",
+        type: PropTypes.String,
+        description: "Visible label.",
+      },
+    }}
+scope={{
+      Avatar,
+    }}
+imports={{
+      'react-native-elements': {
+        named: ['Avatar'],
+      },
+    }}
+/>
+
 Avatars are found all over ui design from lists to profile screens. They are
 commonly used to represent a user and can contain photos, icons, or even text.
 
