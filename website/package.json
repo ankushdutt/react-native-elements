@@ -25,6 +25,7 @@
     "react-view": "^2.3.7"
   },
   "devDependencies": {
-    "babel-plugin-react-native-web": "^0.15.6"
+    "babel-plugin-react-native-web": "^0.15.6",
+    "metro-react-native-babel-preset": "^0.65.2"
   }
 }
